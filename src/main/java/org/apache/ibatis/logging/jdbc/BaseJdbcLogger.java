@@ -28,7 +28,7 @@ import org.apache.ibatis.logging.Log;
 
 /**
  * Base class for proxies to do logging
- * 
+ *
  * @author Clinton Begin
  * @author Eduardo Macarron
  */
@@ -45,7 +45,7 @@ public abstract class BaseJdbcLogger {
   protected Log statementLog;
   protected int queryStack;
 
-  /*
+  /**
    * Default constructor
    */
   public BaseJdbcLogger(Log log, int queryStack) {

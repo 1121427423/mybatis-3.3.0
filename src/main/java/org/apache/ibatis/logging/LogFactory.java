@@ -23,7 +23,7 @@ import java.lang.reflect.Constructor;
  */
 /**
  * 日志工厂
- * 
+ *
  */
 public final class LogFactory {
 
@@ -157,6 +157,11 @@ public final class LogFactory {
     } catch (Throwable t) {
       throw new LogException("Error setting Log implementation.  Cause: " + t, t);
     }
+  }
+
+
+  public static void main(String[] args) throws InterruptedException {
+
   }
 
 }
